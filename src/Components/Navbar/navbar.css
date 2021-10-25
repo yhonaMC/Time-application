@@ -1,0 +1,42 @@
+.navbar {
+  height: 50px;
+  background: #3e9fb8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.text-navbar {
+  color: white;
+  display: flex;
+}
+
+.cont-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+}
+
+.btn-cerrar {
+  border-radius: 5px;
+  border: none;
+  width: 8%;
+  padding: 5px;
+  background: white;
+}
+
+@media (max-width: 812px) {
+  .navbar {
+    gap: 4px;
+  }
+  .btn-cerrar {
+    width: 80px;
+    padding: 1px;
+  }
+  .text-navbar {
+    font-size: 12px;
+  }
+}

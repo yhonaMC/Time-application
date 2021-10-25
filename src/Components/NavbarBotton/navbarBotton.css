@@ -1,0 +1,44 @@
+.cont-botton {
+  background: #eeeeee;
+}
+.navbar-botton {
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 20px;
+}
+
+.opciones {
+  margin-right: 10px;
+  position: relative;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  width: 78px;
+  background: #e2e2e4;
+}
+
+.busqueda {
+  width: 520px;
+  height: 30px;
+  text-align: center;
+  word-spacing: 0px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+}
+
+.button-navbar {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px;
+  background: #d0d0d0;
+}

@@ -1,0 +1,55 @@
+.fondo {
+  width: 30%;
+  height: 360px;
+}
+
+.cont-inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+.form-inicio {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-inicio {
+  margin-bottom: 15px !important;
+}
+
+.button-inicio {
+  width: 50%;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.register {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 812px) {
+  .fondo {
+    width: 100%;
+  }
+  .cont-inicio {
+    margin-top: 300px;
+  }
+}
+
+/* Register */
+
+.button-register {
+  width: 50%;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.register-new {
+  text-decoration: none;
+  margin-top: 20px;
+}

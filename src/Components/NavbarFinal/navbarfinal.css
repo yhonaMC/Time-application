@@ -1,0 +1,12 @@
+.cont-final {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 10px;
+}
+
+.text-final {
+  font-weight: 500;
+  font-size: 15px;
+}
